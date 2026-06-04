@@ -179,6 +179,13 @@ Kỳ vọng:
 | Đạt | Viết logic gợi ý và correction: lọc theo thời gian còn lại, ngân sách, khẩu vị, món nóng/dễ ăn nhanh. | Rule/prompt gợi ý món và flow cập nhật kết quả khi user sửa tiêu chí. |
 | Dương, Khải | Test prototype và chuẩn bị demo: happy, low-confidence, failure, correction. | Ghi chú test 4 paths, case failure AI gợi ý món giao không kịp, demo script 3-5 phút. |
 
+| Nhóm việc | Người phụ trách | Nội dung |
+| --- | --- | --- |
+| Frontend | Dương, Đạt | Xây dựng UI màn hình chính, chatbot, card món ăn, trạng thái chọn món, gọi API backend |
+| Backend | Huy, Khải | Xây dựng Express API, route recommend/correct/health/docs, xử lý prompt, constraint, recommendation |
+| Data | Huy, Khải | Chuẩn bị mock data món ăn, schema dữ liệu, kiểm tra dữ liệu mẫu |
+| Docs/Demo | Dương, Đạt | Viết tài liệu, API contract, test plan, demo script |
+
 ## Backlog không build trong Day 06
 
 - Tích hợp API thật của Xanh SM Ngon.
